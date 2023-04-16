@@ -15,9 +15,9 @@ const IndexPage = (props) => {
   console.log(props);
   return (
     <>
-      <Head>
+      <>
         <title>Home - My blog</title>
-      </Head>
+      </>
       <main>
         <h1>My Blog's</h1>
         <ul>
