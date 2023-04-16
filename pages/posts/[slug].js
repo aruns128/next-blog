@@ -1,4 +1,3 @@
-import Head from "next/Head";
 import { getPost, getSlugs } from "../../lib/post";
 
 // only rendered in server side
@@ -27,9 +26,9 @@ const PostPage = ({ post }) => {
   const pageTitle = post.title;
   return (
     <>
-      <Head>
+      <>
         <title>{pageTitle} - My blog</title>
-      </Head>
+      </>
       <main>
         <p>{post.date}</p>
         <h1>{post.title}</h1>
